@@ -3,12 +3,12 @@ package com.hexaware.billsystem.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
-import com.hexaware.billsystem.service.BillPaymentService;
+import com.hexaware.billsystem.service.VendorService;
 
 @Controller
-public class BillPaymentController 
+public class CustomerController 
 {
 	@Autowired
-	BillPaymentService billService;
+	VendorService billService;
 
 }
