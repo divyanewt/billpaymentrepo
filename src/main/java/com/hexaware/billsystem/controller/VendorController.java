@@ -16,17 +16,17 @@ public class VendorController
 	@Autowired
 	VendorService billService;
 
-	@RequestMapping(value="/vendor")
+	@RequestMapping(value="/createVendor")
 	public int regVendorController(Vendor vendor) {
 		return billService.regVendorService(vendor);
 	}
 	
-	@RequestMapping(value="/custList/")
+	@RequestMapping(value="/getVendorList")
 	public List<Vendor> getAllVendorController(){
 		return billService.getAllVendorService();
 	}
 	
-	@RequestMapping(value="/custById/{id}")
+	@RequestMapping(value="/getVendorById/{id}")
 	public Vendor getVendorByIdController(@PathVariable("id") int id) {
 		return billService.getVendorByIdService(id);
 	}
