@@ -62,7 +62,7 @@ public class VendorDao {
 	
 	public void deleteVendor(int id) {
 		Session session= sf.openSession();
-		Query query = session.createQuery("delete v Vendor where v.id=? ");
+		Query query = session.createQuery("delete  from Vendor v where v.id=? ");
 		query.setParameter(0, id);
 		 
 		int result = query.executeUpdate();

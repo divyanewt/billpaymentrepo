@@ -2,11 +2,13 @@ package com.hexaware.billsystem.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
 @Table(name="country")
 public class Country {
+	@Id
 	@Column(name="country_id",unique = true, nullable = false)
 	private String countryId;
 	private String country;
