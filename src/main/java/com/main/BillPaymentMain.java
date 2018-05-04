@@ -1,4 +1,4 @@
-package com;
+package com.main;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.jpa.HibernateEntityManagerFactory;

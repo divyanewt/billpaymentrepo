@@ -7,7 +7,7 @@
 	</configSuffixes>
 	<enableImports><![CDATA[false]]></enableImports>
 	<configs>
-		<config>java:com.BillPaymentMain</config>
+		<config>java:com.main.BillPaymentMain</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
